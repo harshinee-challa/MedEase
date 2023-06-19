@@ -58,7 +58,7 @@ body {
   width: 15px;
   height: 15px;
   border-radius: 100%;
-  background-color: #4bc5b8;
+  background-color: #00A1A7;
   margin-right: 5px;
 }
 
@@ -106,7 +106,7 @@ body {
 }
 
 .custom_nav-container .navbar-nav .nav-item:hover .nav-link, .custom_nav-container .navbar-nav .nav-item.active .nav-link {
-  background-color: #56bca4;
+  background-color: #0089A8;
   color: #ffffff;
 }
 
@@ -145,6 +145,16 @@ a:focus {
   border: none;
 }
 
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #0089A8;
+  color: #7fc6d6;
+  z-index: 999;
+}
+
 .navbar-brand {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -168,7 +178,7 @@ a:focus {
 .navbar-brand span {
   font-size: 16px;
   font-weight: bold;
-  color: #56bca4;
+  color: #83d7ea;
   margin-top: -10px;
 }
 
@@ -262,7 +272,7 @@ a:focus {
   font-size: 3rem;
   font-weight: bold;
   text-transform: uppercase;
-  color: #2a695a;
+  color: #0089A8;
 }
 
 .slider_section .detail-box p {
@@ -272,15 +282,15 @@ a:focus {
 .slider_section .detail-box a {
   display: inline-block;
   padding: 10px 45px;
-  background-color: #56bca4;
-  border: 1px solid #56bca4;
+  background-color: #0089A8;
+  border: 1px solid #27b2d2;
   color: #ffffff;
   margin-top: 15px;
 }
 
 .slider_section .detail-box a:hover {
   background-color: transparent;
-  color: #56bca4;
+  color: #0089A8;
 }
 
 .slider_section .img-box img {
@@ -306,12 +316,12 @@ a:focus {
 .slider_section #carouselExampleIndicators li.active {
   width: 12px;
   height: 12px;
-  border-color: #56bca4;
+  border-color: #0089A8;
 }
 
 .special_section .special_container {
   color: #ffffff;
-  background-color: #56bca4;
+  background-color: #0089A8;
   padding: 25px;
   margin-top: -97.5px;
 }
@@ -397,15 +407,15 @@ a:focus {
 .about_section .detail-box a {
   display: inline-block;
   padding: 10px 45px;
-  background-color: #56bca4;
-  border: 1px solid #56bca4;
+  background-color: #0089A8;
+  border: 1px solid #0089A8;
   color: #ffffff;
   margin-top: 15px;
 }
 
 .about_section .detail-box a:hover {
   background-color: transparent;
-  color: #56bca4;
+  color: #0089A8;
 }
 
 .service_section {
@@ -456,15 +466,15 @@ a:focus {
 .service_section .btn-box a {
   display: inline-block;
   padding: 8px 45px;
-  background-color: #56bca4;
-  border: 1px solid #56bca4;
+  background-color: #0089A8;
+  border: 1px solid #0089A8;
   color: #ffffff;
   margin-top: 45px;
 }
 
 .service_section .btn-box a:hover {
   background-color: transparent;
-  color: #56bca4;
+  color: #0089A8;
 }
 
 .book_section {
@@ -497,7 +507,7 @@ a:focus {
   width: 15px;
   height: 15px;
   border-radius: 100%;
-  background-color: #4bc5b8;
+  background-color: #00A1A7;
   margin-right: 5px;
 }
 
@@ -536,7 +546,7 @@ a:focus {
 }
 
 .book_section form #inputDate {
-  color: #56bca4;
+  color: #0089A8;
 }
 
 .book_section form #inputDate input {
@@ -544,7 +554,7 @@ a:focus {
 }
 
 .book_section form button.btn {
-  background-color: #35806e;
+  background-color: #006B8C;
   color: #ffffff;
   padding: 10px 45px;
   border-radius: 5px;
@@ -567,7 +577,7 @@ a:focus {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  color: #56bca4;
+  color: #0089A8;
 }
 
 .book_section .nice-select {
@@ -603,7 +613,7 @@ a:focus {
           box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.05);
   padding: 25px;
   text-align: center;
-  background-color: #56bca4;
+  background-color: #0089A8;
   color: #ffffff;
 }
 
@@ -643,7 +653,7 @@ a:focus {
 .client_section .carousel-control-next {
   width: 55px;
   height: 55px;
-  background-color: #35806e;
+  background-color: #006B8C;
   opacity: 1;
   font-size: 28px;
   font-weight: bold;
@@ -693,7 +703,7 @@ a:focus {
 }
 
 .info_section {
-  background-color: #1b443b;
+  background-color: #0089A8;
   color: #ffffff;
 }
 
@@ -759,20 +769,20 @@ a:focus {
 .info_section .info_news form button {
   display: inline-block;
   padding: 7px 45px;
-  background-color: #56bca4;
-  border: 1px solid #56bca4;
+  background-color: #0089A8;
+  border: 1px solid #0089A8;
   color: #ffffff;
   margin-top: 15px;
 }
 
 .info_section .info_news form button:hover {
   background-color: transparent;
-  color: #56bca4;
+  color: #0089A8;
 }
 
 /* footer section*/
 .footer_section {
-  background-color: #1b443b;
+  background-color: #0089A8;
 }
 
 .footer_section p {
