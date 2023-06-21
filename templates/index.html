@@ -51,7 +51,7 @@
           <div class="collapse navbar-collapse ml-auto" id="navbarSupportedContent">
             <ul class="navbar-nav  ml-auto">
               <li class="nav-item active">
-                <a class="nav-link" href="{%static 'index.html' %}">Home <span class="sr-only">(current)</span></a>
+                <a class="nav-link" href="{% url 'index' %}">Home <span class="sr-only">(current)</span></a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="{%static 'about.html' %}"> About </a>
@@ -61,6 +61,9 @@
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="{% static 'appointment.html' %}"> Appointment </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="{% static 'login.html' %}"> Login </a>
               </li>
             </ul>
             <form class="form-inline ">
@@ -83,11 +86,12 @@
                 <div class="col-md-6">
                   <div class="detail-box">
                     <div>
+                     <p><br></p> <br><br>
                       <h1>
                         health care
                       </h1>
                       <p>
-                        text about medease </p>
+                        Welcome to the future of hospital management with MedEase. Our comprehensive platform brings advanced facilities and cutting-edge technology to streamline healthcare administration and elevate patient care. From efficient hospital operations to precise medical diagnosis, MedEase empowers healthcare providers to deliver exceptional services and stay ahead in the ever-evolving medical field. Experience a new era of efficiency, accuracy, and innovation with MedEase. </p>
                       <a href="">
                         Read More
                       </a>
@@ -96,7 +100,7 @@
                 </div>
                 <div class="col-md-6">
                   <div class="img-box">
-                    <img src="{% static 'images/slider-img.png' %}" alt="">
+                    <img src="{% static 'images/home.jpg' %}" alt="">
                   </div>
                 </div>
               </div>
@@ -108,11 +112,12 @@
                 <div class="col-md-6">
                   <div class="detail-box">
                     <div>
+                      <p><br></p> <br><br>
                       <h1>
                         health care
                       </h1>
                       <p>
-                        text about medease  </p>
+                        Seamlessly integrating advanced facilities and state-of-the-art technology, MedEase empowers healthcare institutions to optimize operations, enhance patient care, and drive better health outcomes. From intelligent scheduling and resource management to advanced diagnostic tools, MedEase is the catalyst for transforming the way hospitals deliver exceptional care in today's dynamic healthcare landscape. Embrace the future of hospital management with MedEase and unlock unparalleled efficiency, precision, and patient satisfaction.</p>
                       <a href="">
                         Read More
                       </a>
@@ -121,7 +126,7 @@
                 </div>
                 <div class="col-md-6">
                   <div class="img-box">
-                    <img src="{% static 'images/slider-img.png' %}" alt="">
+                    <img src="{% static 'images/home.jpg' %}" alt="">
                   </div>
                 </div>
               </div>
@@ -133,11 +138,13 @@
                 <div class="col-md-6">
                   <div class="detail-box">
                     <div>
+                      <p><br></p> <br><br>
                       <h1>
                         health care
                       </h1>
                       <p>
-                        text about medease  </p>
+                       
+Discover a new era of hospital management with MedEase. Our innovative platform is designed to revolutionize the healthcare landscape by providing advanced facilities and cutting-edge technology. With MedEase, hospitals can streamline administrative tasks, enhance communication between healthcare professionals, and leverage powerful diagnostic tools for accurate medical assessments. From electronic health records management to seamless patient monitoring, MedEase empowers healthcare institutions to deliver efficient, patient-centered care. Embrace the power of MedEase and unlock new possibilities in healthcare management for improved outcomes and a better patient experience.</p>
                       <a href="">
                         Read More
                       </a>
@@ -146,7 +153,7 @@
                 </div>
                 <div class="col-md-6">
                   <div class="img-box">
-                    <img src="{% static 'images/slider-img.png' %}" alt="">
+                    <img src="{% static 'images/home.jpg' %}" alt="">
                   </div>
                 </div>
               </div>
@@ -454,12 +461,12 @@
       </div>
       <div class="col-md-7 mx-auto px-0">
         <div class="img-box b2">
-          <img src="{% static 'images/about-img.png' %}" alt="" />
+          <img src="{% static 'images/about.jpg' %}" alt="" />
         </div>
       </div>
       <div class="col-md-9 mx-auto px-0">
         <div class="detail-box">
-          <p>text about medease </p>
+          <p>Experience the future of healthcare at your fingertips with MedEase, empowering you with cutting-edge technology and personalized care. Revolutionize the way you manage your well-being, from seamless access to healthcare providers to a secure and convenient platform for all your medical needs. </p>
           <a href="">
             Read More
           </a>
@@ -480,7 +487,7 @@
           Our Services
         </h2>
         <p>
-          text about medease  </p>
+          At MedEase, we provide comprehensive healthcare services tailored to your needs, including virtual consultations, seamless scheduling, and secure communication channels. Take control of your well-being with advanced health tracking and personalized recommendations, revolutionizing your healthcare experience with our modern, innovative, and compassionate approach. Trust us to transform the way you receive healthcare, putting your needs at the forefront.</p>
       </div>
       <div class="row">
         <div class="col-md-2">
@@ -488,7 +495,7 @@
         </div>
         <div class="col-md-4 mx-auto">
           <div class="box">
-            <img src="{% static 'images/s1.png' %}" alt="" />
+            <img src="{% static 'images/services 1.jpg' %}" alt="" />
             <a href="#">
               Cardiology
             </a>
@@ -496,7 +503,7 @@
         </div>
         <div class="col-md-4 mx-auto">
           <div class="box">
-            <img src="{% static 'images/s2.png' %}" alt="" />
+            <img src="{% static 'images/services 2.jpg' %}" alt="" />
             <a href="#">
               Diagnosis
             </a>
@@ -507,7 +514,7 @@
         </div>
         <div class="col-md-4 mx-auto">
           <div class="box">
-            <img src="{% static 'images/s3.png' %}" alt="" />
+            <img src="{% static 'images/services 5.jpg'' %}" alt="" />
             <a href="#">
               Surgery
             </a>
@@ -515,7 +522,7 @@
         </div>
         <div class="col-md-4 mx-auto">
           <div class="box">
-            <img src="{% static 'images/s4.png' %}" alt="" />
+            <img src="{% static 'images/services 4.jpg'' %}" alt="" />
             <a href="#">
               First Aid
             </a>
@@ -523,7 +530,7 @@
         </div>
         <div class="col-md-4 mx-auto">
           <div class="box">
-            <img src="{% static 'images/s5.png' %}" alt="" />
+            <img src="{% static 'images/services 3.jpg'' %}" alt="" />
             <a href="#">
               Therapy
             </a>
@@ -704,7 +711,7 @@
             </h5>
             <ul class="navbar-nav  ">
               <li class="nav-item ">
-                <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                <a class="nav-link" href="{% static 'index.html' %}">Home <span class="sr-only">(current)</span></a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="{% static 'about.html' %}" > About </a>
@@ -725,7 +732,7 @@
          Hospital
             </h5>
             <p>
-              text about medease   </p>
+              Elevating healthcare through the fusion of exceptional doctors and advanced technology.</p>
           </div>
         </div>
 
@@ -763,7 +770,7 @@
   <footer class="container-fluid footer_section">
     <div class="container">
       <p>
-        &copy; <span id="displayYear"></span> 
+        &copy; <span id="displayYear">2023</span> 
         <a href="https://html.design/">MedEase</a>
       </p>
     </div>

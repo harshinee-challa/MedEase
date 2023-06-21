@@ -478,8 +478,8 @@ a:focus {
 }
 
 .book_section {
-  background-image: -webkit-gradient(linear, left top, right top, from(rgba(86, 188, 164, 0.55)), to(rgba(86, 188, 164, 0.55))), url(../images/book-bg.jpg);
-  background-image: linear-gradient(to right, rgba(86, 188, 164, 0.55), rgba(86, 188, 164, 0.55)), url(../images/book-bg.jpg);
+  background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 137, 168, 0.5)), to(rgba(0, 137, 168, 0.5))), url(../images/book-bg.jpg);
+  background-image: linear-gradient(to right, rgba(0, 137, 168, 0.5), rgba(0, 137, 168, 0.5)), url(../images/appoin.jpg);
   background-size: cover;
   color: #000000;
 }
@@ -780,13 +780,16 @@ a:focus {
   color: #0089A8;
 }
 
-/* footer section*/
+/* footer    background-color: #0089A8  section*/
 .footer_section {
+  bottom: 0;
+  width: 100%;
   background-color: #0089A8;
+  
 }
 
 .footer_section p {
-  padding: 20px 0;
+  padding: 10px 0;
   color: #ffffff;
   margin: 0 auto;
   text-align: center;
